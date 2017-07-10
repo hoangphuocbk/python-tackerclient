@@ -26,7 +26,7 @@ class ListNSD(tackerV10.ListCommand):
     """List NSDs that belong to a given tenant."""
 
     resource = _NSD
-    list_columns = ['id', 'name', 'description']
+    list_columns = ['id', 'name', 'template_resource', 'description']
 
 
 class ShowNSD(tackerV10.ShowCommand):

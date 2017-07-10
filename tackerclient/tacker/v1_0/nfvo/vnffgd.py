@@ -26,7 +26,7 @@ class ListVNFFGD(tackerV10.ListCommand):
     """List VNFFGDs that belong to a given tenant."""
 
     resource = _VNFFGD
-    list_columns = ['id', 'name', 'description']
+    list_columns = ['id', 'name', 'template_resource', 'description']
 
 
 class ShowVNFFGD(tackerV10.ShowCommand):
